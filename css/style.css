@@ -1,0 +1,923 @@
+/* Reinicio */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Pantalla */
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+h1,h2{
+
+    font-family:'Playfair Display',serif;
+
+}
+
+/* Fondo */
+
+.background{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background:
+        radial-gradient(circle at top,
+        #23395d 0%,
+        #101b33 30%,
+        #050814 70%,
+        #000000 100%);
+
+    z-index:-3;
+
+}
+
+/* Estrellas */
+
+#stars{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    z-index:-2;
+
+}
+
+/* Contenido */
+
+.inicio{
+
+    position:relative;
+
+    z-index:2;
+
+    text-align:center;
+
+}
+
+/* Título */
+
+h1{
+
+    font-size:70px;
+
+    margin-bottom:25px;
+
+    text-shadow:0px 0px 25px white;
+
+}
+
+/* Texto */
+
+p{
+
+    font-size:24px;
+
+    color:#d7d7d7;
+
+    margin-bottom:50px;
+
+}
+
+/* Botón */
+
+button{
+
+    background:#ff4d6d;
+
+    border:none;
+
+    color:white;
+
+    padding:18px 45px;
+
+    border-radius:50px;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    opacity:0;
+
+    animation:
+        latido 2s infinite,
+        aparecerBoton 2s forwards;
+
+    animation-delay:
+        0s,
+        5s;
+
+}
+
+button:hover{
+
+    transform:translateY(-5px) scale(1.08);
+
+    box-shadow:
+        0 15px 40px rgba(255,77,109,.5);
+
+}
+
+/* Animación */
+
+@keyframes latido{
+
+    0%{
+
+        transform:scale(1);
+
+    }
+
+    50%{
+
+        transform:scale(1.08);
+
+        box-shadow:0 0 25px #ff4d6d;
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+    }
+
+}
+
+.star{
+
+    position:absolute;
+
+    width:2px;
+
+    height:2px;
+
+    background:white;
+
+    border-radius:50%;
+
+    animation:brillar infinite alternate;
+
+}
+
+@keyframes brillar{
+
+    from{
+
+        opacity:.2;
+
+        transform:scale(.5);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:scale(2);
+
+    }
+
+}
+
+#mensaje::after{
+
+    content:"|";
+
+    animation:cursor .8s infinite;
+
+}
+
+@keyframes cursor{
+
+    0%{
+
+        opacity:1;
+
+    }
+
+    50%{
+
+        opacity:0;
+
+    }
+
+    100%{
+
+        opacity:1;
+
+    }
+
+}
+
+.moon{
+
+    position:fixed;
+
+    top:60px;
+    right:80px;
+
+    width:120px;
+    height:120px;
+
+    border-radius:50%;
+
+    background:#f8f5d7;
+
+    box-shadow:
+        0 0 30px #ffffff,
+        0 0 60px #fff8b5,
+        0 0 120px rgba(255,255,200,.4);
+
+    z-index:-1;
+
+}
+
+.moon{
+
+    animation:luna 6s ease-in-out infinite;
+
+}
+
+@keyframes luna{
+
+    0%{
+
+        transform:scale(1);
+
+        filter:brightness(1);
+
+    }
+
+    50%{
+
+        transform:scale(1.08);
+
+        filter:brightness(1.3);
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+        filter:brightness(1);
+
+    }
+
+}
+
+@keyframes aparecerBoton{
+
+    from{
+
+        opacity:0;
+
+    }
+
+    to{
+
+        opacity:1;
+
+    }
+
+}
+
+.fade-out{
+
+    animation:desaparecer 1.5s forwards;
+
+}
+
+@keyframes desaparecer{
+
+    to{
+
+        opacity:0;
+
+    }
+
+}
+
+.foto img{
+
+    width:350px;
+
+    border-radius:25px;
+
+    box-shadow:0px 0px 30px rgba(255,255,255,.3);
+
+    margin:40px;
+
+}
+
+section{
+
+    width:100%;
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+}
+
+#carta{
+
+    background:#1f2937;
+
+}
+
+#final{
+
+    background:#030712;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+#recuerdos{
+
+    width:100%;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+.recuerdo{
+
+    width:100%;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:60px 20px;
+
+}
+
+.contenido-recuerdo{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    text-align:center;
+
+    max-width:900px;
+
+}
+
+.recuerdo img{
+
+    width:min(85vw, 500px);
+
+    max-height:60vh;
+
+    object-fit:contain;
+
+    border-radius:25px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.45);
+
+}
+
+.recuerdo p{
+
+    margin-top:30px;
+
+    max-width:700px;
+
+    width:90%;
+
+    line-height:1.6;
+
+    font-size:clamp(20px,2vw,30px);
+
+}
+
+/* Estado inicial */
+
+.recuerdo{
+
+    opacity:0;
+
+    transform:translateY(80px);
+
+    transition:all 1.2s ease;
+
+}
+
+/* Cuando aparece */
+
+.recuerdo.visible{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/* ---------- POLAROID ---------- */
+
+.polaroid{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    width:min(90vw,550px);
+
+    box-shadow:
+        0 25px 60px rgba(0,0,0,.5);
+
+    transition:.5s;
+
+    transform:rotate(-2deg);
+
+}
+
+.polaroid img{
+
+    width:100%;
+
+    display:block;
+
+    border-radius:10px;
+
+}
+
+.descripcion{
+
+    margin-top:18px;
+
+    color:#333;
+
+    font-size:24px;
+
+    text-align:center;
+
+    font-family:"Trebuchet MS", sans-serif;
+
+    line-height:1.5;
+
+}
+
+.polaroid:hover{
+
+    transform:
+
+        rotate(0deg)
+
+        scale(1.05)
+
+        rotateX(4deg);
+
+}
+
+/* Estado inicial */
+
+.polaroid{
+
+    opacity:0;
+
+    transform:translateY(80px) scale(.8);
+
+    transition:all 1s ease;
+
+}
+
+/* Cuando aparece */
+
+.recuerdo.visible .polaroid{
+
+    opacity:1;
+
+    transform:translateY(0) scale(1);
+
+}
+
+.descripcion{
+
+    opacity:0;
+
+    transform:translateY(20px);
+
+    transition:.8s;
+
+    transition-delay:.8s;
+
+}
+
+.recuerdo.visible .descripcion{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+.polaroid{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.polaroid::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:-120%;
+
+    width:40%;
+
+    height:100%;
+
+    background:
+
+        linear-gradient(
+
+            90deg,
+
+            transparent,
+
+            rgba(255,255,255,.6),
+
+            transparent
+
+        );
+
+}
+
+.polaroid:hover::before{
+
+    left:140%;
+
+    transition:1s;
+
+}
+
+.recuerdo{
+
+    perspective:1000px;
+
+}
+
+/* -------- CARTA -------- */
+
+#carta{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+}
+
+.sobre{
+
+    font-size:130px;
+
+    cursor:pointer;
+
+    text-align:center;
+
+    transition:.5s;
+
+}
+
+.sobre:hover{
+
+    transform:scale(1.1);
+
+}
+
+.sobre p{
+
+    font-size:22px;
+
+    margin-top:20px;
+
+}
+
+.papel{
+
+    display:none;
+
+    background:white;
+
+    color:#333;
+
+    width:min(90vw,700px);
+
+    padding:50px;
+
+    border-radius:15px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.5);
+
+    margin-top:30px;
+
+}
+
+.papel h2{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+    color:#ff4d6d;
+
+}
+
+#textoCarta{
+
+    line-height:2;
+
+    font-size:22px;
+
+    white-space:pre-line;
+
+}
+
+#final{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+    position:relative;
+
+    overflow:hidden;
+
+    text-align:center;
+
+}
+
+.mensajeFinal{
+
+    font-size:60px;
+
+    margin-bottom:30px;
+
+}
+
+.mensaje2{
+
+    font-size:28px;
+
+    max-width:700px;
+
+    line-height:1.6;
+
+}
+
+#reiniciar{
+
+    margin-top:60px;
+
+}
+
+.corazon{
+
+    position:absolute;
+
+    bottom:-50px;
+
+    animation:subir 7s linear forwards;
+
+    opacity:.8;
+
+}
+
+@keyframes subir{
+
+    from{
+
+        transform:
+            translateY(0);
+
+        opacity:0;
+
+    }
+
+    20%{
+
+        opacity:1;
+
+    }
+
+    to{
+
+        transform:
+            translateY(-120vh);
+
+        opacity:0;
+
+    }
+
+}
+
+/* ---------- Barra de progreso ---------- */
+
+#barraProgreso{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:6px;
+
+    background:rgba(255,255,255,.15);
+
+    z-index:9999;
+
+}
+
+#progreso{
+
+    width:0;
+
+    height:100%;
+
+    background:linear-gradient(
+        90deg,
+        #ff4d6d,
+        #ff7aa2,
+        #ffd166
+    );
+
+    transition:.15s;
+
+}
+
+.background,
+.moon,
+#stars{
+
+    transition:transform .2s linear;
+
+}
+
+h1{
+
+    animation:titulo 1.5s ease;
+
+}
+
+@keyframes titulo{
+
+    from{
+
+        opacity:0;
+        transform:translateY(-50px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
+
+}
+
+.clickHeart{
+
+    position:fixed;
+
+    animation:heartUp 1s forwards;
+
+    pointer-events:none;
+
+}
+
+@keyframes heartUp{
+
+    from{
+
+        opacity:1;
+
+        transform:translateY(0) scale(1);
+
+    }
+
+    to{
+
+        opacity:0;
+
+        transform:translateY(-80px) scale(2);
+
+    }
+
+}
+
+/* ---------- MENÚ ---------- */
+
+#menuLateral{
+
+    position:fixed;
+
+    right:25px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+    z-index:9999;
+
+}
+
+#menuLateral a{
+
+    color:white;
+
+    text-decoration:none;
+
+    opacity:.4;
+
+    transition:.3s;
+
+    font-size:15px;
+
+}
+
+#menuLateral a:hover{
+
+    opacity:1;
+
+}
+
+#menuLateral a.activo{
+
+    opacity:1;
+
+    color:#ff4d6d;
+
+    font-weight:bold;
+
+}
