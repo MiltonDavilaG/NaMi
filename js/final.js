@@ -25,11 +25,3 @@ setInterval(()=>{
     },7000);
 
 },500);
-
-document
-.getElementById("reiniciar")
-.addEventListener("click",()=>{
-
-    location.reload();
-
-});

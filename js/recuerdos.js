@@ -2,43 +2,43 @@ const recuerdos = [
 
     {
         imagen:"foto1.jpg",
-        texto:"El inicio de una historia que nunca imaginé vivir ❤️"
+        texto:"Secundaria y Preparatoria ✨"
     },
 
 
     {
         imagen:"foto2.jpg",
-        texto:"Momentos pequeños que terminaron siendo grandes recuerdos ✨"
+        texto:"Se puede decir que fue la primera foto que te tomé"
     },
 
 
     {
         imagen:"foto3.jpg",
-        texto:"Cada instante contigo tiene algo especial ❤️"
+        texto:"Mi mano jajaja"
     },
 
 
     {
         imagen:"foto4.jpg",
-        texto:"Gracias por cada sonrisa y cada momento compartido"
+        texto:"Somos muy otaku onichan:3"
     },
 
 
     {
         imagen:"foto5.jpg",
-        texto:"Una historia que seguimos escribiendo juntos"
+        texto:"Mi recuerdo cuando hicimos una videollamada de 3 horas y media lo guarde ❤️"
     },
 
 
     {
         imagen:"foto6.jpg",
-        texto:"Más recuerdos, más razones para sonreír"
+        texto:"Yo copiandote la idea para estar igual"
     },
 
 
     {
         imagen:"foto7.jpg",
-        texto:"Porque los mejores momentos son los que compartimos"
+        texto:"Me gustan tus patas🐾"
     },
 
 
@@ -50,13 +50,13 @@ const recuerdos = [
 
     {
         imagen:"foto9.jpg",
-        texto:"Y todavía quedan muchos recuerdos por crear"
+        texto:"Nuestra primera foto juntos despues de tanto tiempo sin vernos"
     },
 
 
     {
         imagen:"foto10.jpg",
-        texto:"Gracias por formar parte de mi vida ❤️"
+        texto:"Mi foto favorita de esta parte ✨"
     }
 
 ];

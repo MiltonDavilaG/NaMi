@@ -4,7 +4,7 @@ const texto = "Para la persona importante en mi vida ❤️";
 
 let i = 0;
 
-function escribir() {
+function escribir(){
 
     if(i < texto.length){
 
@@ -13,6 +13,10 @@ function escribir() {
         i++;
 
         setTimeout(escribir,80);
+
+    }else{
+
+        mensaje.classList.add("fin-escritura");
 
     }
 

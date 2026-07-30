@@ -70,3 +70,13 @@ document.querySelectorAll(".recuerdo").forEach(recuerdo=>{
     observer.observe(recuerdo);
 
 });
+
+const btnReiniciar = document.getElementById("btnReiniciar");
+
+btnReiniciar.addEventListener("click", () => {
+
+    document.getElementById("bienvenida").scrollIntoView({
+        behavior: "smooth"
+    });
+
+});
