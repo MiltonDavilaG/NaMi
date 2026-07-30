@@ -4,7 +4,7 @@ const estrellaEspecial = document.createElement("div");
 
 estrellaEspecial.classList.add("star", "star-love");
 
-estrellaEspecial.style.left = "75%";   // Horizontal
+estrellaEspecial.style.left = "40%";   // Horizontal
 estrellaEspecial.style.top = "18%";    // Vertical
 
 stars.appendChild(estrellaEspecial);
