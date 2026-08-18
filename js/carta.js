@@ -1,21 +1,15 @@
 const carta = `
-Eres especial.
-Eres linda.
-Eres una angelita.
-Eres el "San" de mi "Valentin".
-Me muero por escucharte.
-No hay nadie como tu.
-Eres Importante para mi. 
-Tienes un gran corazon y todo lo respaldas con pruebas.
-Las horas de las noches me parecen solitarias sin ti.
-Haria cualquier cosa con tal de que me quieras.
-Eres la chica numero uno en mis ojos. 
-Tu unico amor verdadero.
-Tienes una grandeza que eres humilde y amigable ❤️.
-Te acepto en cada una de tus etapas.
-Te necesito.
-Te amo.
-Vales la pena y eres suficiente.
+Quiero que te quedes hasta que este en la tumba.
+Porque siempre fuiste tu.
+Debemos permanecer juntos, lo se.
+Puede que no sea para siempre, pero si es para siempre sera aun mejor.
+Cariño, hasta el dia que muera.
+Quiero que me veas, como te ves para mi.
+No me lo creerias si te lo dijera. 
+Rendirnos?.
+No quiero decir adios.
+Te conoci en otra vida.
+Te amo, no te hagas la sorprendida. 
 ❤️
 `;
 
