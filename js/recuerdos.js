@@ -2,176 +2,156 @@ const recuerdos = [
 
     {
         imagen:"foto1.jpg",
-        texto:"2020 ✨"
+        texto:"2021 ✨"
     },
 
 
     {
         imagen:"foto2.jpg",
-        texto:"Nuestras primeras veces comiendo gelatina juntos"
+        texto:"Tu lengua si que si"
     },
 
 
     {
         imagen:"foto3.jpg",
-        texto:"Me contabas sobre tu peluche"
+        texto:"Tu en rositaa ❤️"
     },
 
 
     {
         imagen:"foto4.jpg",
-        texto:"Salida a comeer❤️"
+        texto:"Eyey le voy a decir a tu mama"
     },
 
 
     {
         imagen:"foto5.jpg",
-        texto:"Atentando contra mi vida"
+        texto:"Foto playita"
     },
 
 
     {
         imagen:"foto6.jpg",
-        texto:"Momento quintaa✨"
+        texto:"Tus caritaas me encantaan ✨"
     },
 
 
     {
         imagen:"foto7.jpg",
-        texto:"Nuestros primeros anillos juntos"
+        texto:"Nuestras primeras fotos de playaa"
     },
 
 
     {
-        imagen:"foto8.png",
-        texto:":D"
+        imagen:"foto8.jpg",
+        texto:"Por cumplir nuestros sueños regios"
     },
 
 
     {
         imagen:"foto9.jpg",
-        texto:"De hecho"
+        texto:"Momento Covid"
     },
 
 
     {
         imagen:"foto10.jpg",
-        texto:"Likee ❤️"
-    },
-
-    {
-        imagen:"foto33.jpg",
-        texto:"Somos esos"
-    },
-
-    {
-        imagen:"foto12.jpg",
-        texto:"Atentamos con nuestras vidas pt2"
-    },
-
-    {
-        imagen:"foto13.jpg",
-        texto:"Si, tambien guardo fotos de ti solamente✨"
-    },
-
-    {
-        imagen:"foto14.jpg",
-        texto:"Siempre me haces sonreir"
-    },
-
-    {
-        imagen:"foto15.jpg",
         texto:"❤️"
     },
 
     {
+        imagen:"foto11.jpg",
+        texto:"Besitooos"
+    },
+
+    {
+        imagen:"foto12.jpg",
+        texto:":3"
+    },
+
+    {
+        imagen:"foto13.jpg",
+        texto:"De nuestras primeras fiestitas ✨"
+    },
+
+    {
+        imagen:"foto14.jpg",
+        texto:"❤️"
+    },
+
+    {
+        imagen:"foto15.jpg",
+        texto:"Tuu con un perrito playero"
+    },
+
+    {
         imagen:"foto16.jpg",
-        texto:"Somos esos"
+        texto:"Ñam lindas patas del 2021"
     },
 
     {
         imagen:"foto17.jpg",
-        texto:"Poniendonos deacuerdo para poner las mismas fotos"
+        texto:"Nosotros 2 y una piedra gigante"
     },
 
     {
         imagen:"foto18.jpg",
-        texto:"Tantas fotos que tengo de esa llamada y de ti solamente"
+        texto:"Tuu en azuul"
     },
 
     {
         imagen:"foto19.jpg",
-        texto:"Por otra llamada de 2 horas y media"
+        texto:"Azules siendo azules azulitos"
     },
 
     {
         imagen:"foto20.jpg",
-        texto:"Que linda eres siempre✨"
-    },
-
-    {
-        imagen:"foto21.jpg",
-        texto:":D"
-    },
-
-    {
-        imagen:"foto22.jpg",
-        texto:"Un dibujo dice mas que muchas palabras❤️"
-    },
-
-    {
-        imagen:"foto23.jpg",
-        texto:"Somos igualees"
-    },
-
-    {
-        imagen:"foto24.jpg",
-        texto:"Como seran los proximos anillos juntos?✨"
-    },
-
-    {
-        imagen:"foto25.jpg",
-        texto:"Amor, paz y lengua"
-    },
-
-    {
-        imagen:"foto26.jpg",
-        texto:"Porque dejabas que me peinara asi"
-    },
-
-    {
-        imagen:"foto27.jpg",
-        texto:"Quien quien quien?❤️"
-    },
-
-    {
-        imagen:"foto28.jpg",
-        texto:"Haciendome reir"
-    },
-
-    {
-        imagen:"foto29.jpg",
-        texto:"Foto pies"
-    },
-
-    {
-        imagen:"foto30.jpg",
         texto:"✨"
     },
 
     {
-        imagen:"foto31.jpg",
-        texto:"Que vibes"
+        imagen:"foto21.jpg",
+        texto:"Papoi?"
     },
 
     {
-        imagen:"foto32.jpg",
-        texto:"Siempre sacamos le lengua para las fotos"
+        imagen:"foto22.jpg",
+        texto:"Tu en fotos haciendo besitos ❤️"
     },
 
     {
-        imagen:"foto11.jpg",
-        texto:"Esa es la bonita que cumple años hoy❤️ Que linda seria nuestra hija"
+        imagen:"foto23.jpg",
+        texto:"Mi monitaa ✨"
+    },
+
+    {
+        imagen:"foto24.jpg",
+        texto:"Fotito de media cara"
+    },
+
+    {
+        imagen:"foto25.jpg",
+        texto:"Feliz navidaaad"
+    },
+
+    {
+        imagen:"foto26.jpg",
+        texto:"Tu en llamada conmigo"
+    },
+
+    {
+        imagen:"foto27.jpg",
+        texto:"❤️"
+    },
+
+    {
+        imagen:"foto28.jpg",
+        texto:"Noches de invierno tapaditoos"
+    },
+
+    {
+        imagen:"foto29.jpg",
+        texto:"Zzzzz ✨"
     }
 
 ];

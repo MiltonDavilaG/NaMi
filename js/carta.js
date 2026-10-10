@@ -1,15 +1,11 @@
 const carta = `
-Quiero que te quedes hasta que este en la tumba.
-Porque siempre fuiste tu.
-Debemos permanecer juntos, lo se.
-Puede que no sea para siempre, pero si es para siempre sera aun mejor.
-Cariño, hasta el dia que muera.
-Quiero que me veas, como te ves para mi.
-No me lo creerias si te lo dijera. 
-Rendirnos?.
-No quiero decir adios.
-Te conoci en otra vida.
-Te amo, no te hagas la sorprendida. 
+Estoy contento de tenerte muy cerca de mi.
+Que me des besos.
+Y que te rias de mi.
+Eres lo mas bonito que he visto en toda mi vida.
+Ya no puedo vivir sin ti.
+Te amo.
+Estas loca como yo. 
 ❤️
 `;
 
