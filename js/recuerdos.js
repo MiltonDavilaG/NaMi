@@ -1,7 +1,7 @@
 const recuerdos = [
 
     {
-        imagen:"foto1.jpg",
+        imagen:"foto1.png",
         texto:"2022 ✨"
     },
 
