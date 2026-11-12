@@ -160,7 +160,7 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto31.jpg",
+        imagen:"foto31.png",
         texto:"Dias de alberca y sol"
     },
 
