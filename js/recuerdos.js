@@ -230,18 +230,8 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto47.jpg",
-        texto:"Lindas fotos"
-    },
-
-    {
         imagen:"foto48.jpg",
         texto:"TE QUIEROO"
-    },
-
-    {
-        imagen:"foto49.jpg",
-        texto:"Nadie mas que tu y yo"
     },
 
     {
@@ -320,11 +310,6 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto65.png",
-        texto:"Nos aloviemos toda la vida"
-    },
-
-    {
         imagen:"foto66.jpg",
         texto:"Te measte de amor"
     },
@@ -355,28 +340,8 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto72.png",
-        texto:"No necesita contexto"
-    },
-
-    {
         imagen:"foto73.jpg",
         texto:"Amo abrazar tus piernas"
-    },
-
-    {
-        imagen:"foto74.png",
-        texto:"Sin contexto..."
-    },
-
-    {
-        imagen:"foto75.png",
-        texto:"JAJAJAJ"
-    },
-
-    {
-        imagen:"foto76.png",
-        texto:"..."
     },
 
     {
