@@ -1,13 +1,13 @@
 const recuerdos = [
 
     {
-        imagen:"foto1.jpeg",
+        imagen:"foto1.jpg",
         texto:"2022 ✨"
     },
 
 
     {
-        imagen:"foto2.jpeg",
+        imagen:"foto2.jpg",
         texto:"Bonitaa"
     },
 
@@ -60,7 +60,7 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto11.jpeg",
+        imagen:"foto11.jpg",
         texto:"Apoco chi, mostrando anillo, haber si muestras el proximo"
     },
 
@@ -100,7 +100,7 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto19.jpeg",
+        imagen:"foto19.jpg",
         texto:"Somos dos sombras unidas"
     },
 
@@ -115,47 +115,47 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto22.jpeg",
+        imagen:"foto22.jpg",
         texto:"Grandes uñas de impacto ❤️"
     },
 
     {
-        imagen:"foto23.jpeg",
+        imagen:"foto23.jpg",
         texto:"Me encantaas"
     },
 
     {
-        imagen:"foto24.jpeg",
+        imagen:"foto24.jpg",
         texto:"Me gusta besarte la cabeza"
     },
 
     {
-        imagen:"foto25.jpeg",
+        imagen:"foto25.jpg",
         texto:"TE ADOROO ✨"
     },
 
     {
-        imagen:"foto26.jpeg",
+        imagen:"foto26.jpg",
         texto:"El ultima dia del Bosque magico"
     },
 
     {
-        imagen:"foto27.jpeg",
+        imagen:"foto27.jpg",
         texto:"❤️"
     },
 
     {
-        imagen:"foto28.jpeg",
+        imagen:"foto28.jpg",
         texto:"Siendo un corazoncito"
     },
 
     {
-        imagen:"foto29.jpeg",
+        imagen:"foto29.jpg",
         texto:"Un dia de varios en Paseo ✨"
     },
 
     {
-        imagen:"foto30.jpeg",
+        imagen:"foto30.jpg",
         texto:"Escuchando musica juntooss"
     },
 
@@ -175,22 +175,22 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto34.jpeg",
+        imagen:"foto34.jpg",
         texto:"Quien sos? Identificate"
     },
 
     {
-        imagen:"foto35.jpeg",
+        imagen:"foto35.jpg",
         texto:"Salidita contigoo"
     },
 
     {
-        imagen:"foto36.jpeg",
+        imagen:"foto36.jpg",
         texto:"Siguiendo con los sueños regios"
     },
 
     {
-        imagen:"foto37.jpeg",
+        imagen:"foto37.jpg",
         texto:"Cumpleaños de la bebee"
     },
 
@@ -205,37 +205,37 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto40.jpeg",
+        imagen:"foto40.jpg",
         texto:"Viaje a la playa, que bonitoo"
     },
 
     {
-        imagen:"foto41.jpeg",
+        imagen:"foto41.jpg",
         texto:"Me aplastas con tu amor"
     },
 
     {
-        imagen:"foto42.jpeg",
+        imagen:"foto42.jpg",
         texto:"ÑAM ÑAM TE DESEOO ✨"
     },
 
     {
-        imagen:"foto43.jpeg",
+        imagen:"foto43.jpg",
         texto:"Amor amoor amor amooor"
     },
 
     {
-        imagen:"foto44.jpeg",
+        imagen:"foto44.jpg",
         texto:"Como me gustaas"
     },
 
     {
-        imagen:"foto45.jpeg",
+        imagen:"foto45.jpg",
         texto:"Abrazito del amoor"
     },
 
     {
-        imagen:"foto46.jpeg",
+        imagen:"foto46.jpg",
         texto:"Enamoradoo de ti"
     },
 
@@ -245,7 +245,7 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto48.jpeg",
+        imagen:"foto48.jpg",
         texto:"TE QUIEROO"
     },
 
@@ -255,17 +255,17 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto50.jpeg",
+        imagen:"foto50.jpg",
         texto:"Dejando la patita en la arena"
     },
 
     {
-        imagen:"foto51.jpeg",
+        imagen:"foto51.jpg",
         texto:":)"
     },
 
     {
-        imagen:"foto52.jpeg",
+        imagen:"foto52.jpg",
         texto:"Marcame mas tus besos, me encantan"
     },
 
@@ -275,17 +275,17 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto54.jpeg",
+        imagen:"foto54.jpg",
         texto:"TE AMOO"
     },
 
     {
-        imagen:"foto55.jpeg",
+        imagen:"foto55.jpg",
         texto:"Mamii"
     },
 
     {
-        imagen:"foto56.jpeg",
+        imagen:"foto56.jpg",
         texto:"Amoo"
     },
 
@@ -305,22 +305,22 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto60.jpeg",
+        imagen:"foto60.jpg",
         texto:"Ostiaas"
     },
 
     {
-        imagen:"foto61.jpeg",
+        imagen:"foto61.jpg",
         texto:"Unos loquitoss"
     },
 
     {
-        imagen:"foto62.jpeg",
+        imagen:"foto62.jpg",
         texto:"MIAUU"
     },
 
     {
-        imagen:"foto63.jpeg",
+        imagen:"foto63.jpg",
         texto:"Creo que estoy un poco despeinado"
     },
 
@@ -335,32 +335,32 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto66.jpeg",
+        imagen:"foto66.jpg",
         texto:"Te measte de amor"
     },
 
     {
-        imagen:"foto67.jpeg",
+        imagen:"foto67.jpg",
         texto:"❤️"
     },
 
     {
-        imagen:"foto68.jpeg",
+        imagen:"foto68.jpg",
         texto:"❤️"
     },
 
     {
-        imagen:"foto69.jpeg",
+        imagen:"foto69.jpg",
         texto:"ermosa t imbito mas aniversarios juntos"
     },
 
     {
-        imagen:"foto70.jpeg",
+        imagen:"foto70.jpg",
         texto:"Gobernado por usted mi amor ✨"
     },
 
     {
-        imagen:"foto71.jpeg",
+        imagen:"foto71.jpg",
         texto:"Por mas noches asi"
     },
 
@@ -370,7 +370,7 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto73.jpeg",
+        imagen:"foto73.jpg",
         texto:"Amo abrazar tus piernas"
     },
 
@@ -390,27 +390,27 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto77.jpeg",
+        imagen:"foto77.jpg",
         texto:"Yo con tus patitas por milesima infinita vez"
     },
 
     {
-        imagen:"foto78.jpeg",
+        imagen:"foto78.jpg",
         texto:"Mi cieloo ❤️"
     },
 
     {
-        imagen:"foto79.jpeg",
+        imagen:"foto79.jpg",
         texto:"Mis ojitos de brillo"
     },
 
     {
-        imagen:"foto80.jpeg",
+        imagen:"foto80.jpg",
         texto:"Te dare mil besos siempre siempre"
     },
 
     {
-        imagen:"foto81.jpeg",
+        imagen:"foto81.jpg",
         texto:"Mirame siempre"
     },
 
@@ -420,27 +420,27 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto83.jpeg",
+        imagen:"foto83.jpg",
         texto:"Mas dias poniendonos cosas en la cara, que bonitoo"
     },
 
     {
-        imagen:"foto84.jpeg",
+        imagen:"foto84.jpg",
         texto:"Conquistado por ti ❤️"
     },
 
     {
-        imagen:"foto85.jpeg",
+        imagen:"foto85.jpg",
         texto:"La noche de BaBoni"
     },
 
     {
-        imagen:"foto86.jpeg",
+        imagen:"foto86.jpg",
         texto:"La quiero comer a besoss ✨"
     },
 
     {
-        imagen:"foto87.jpeg",
+        imagen:"foto87.jpg",
         texto:"Una navidad posaditaa"
     },
 
