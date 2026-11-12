@@ -160,16 +160,6 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto31.png",
-        texto:"Dias de alberca y sol"
-    },
-
-    {
-        imagen:"foto32.jpg",
-        texto:"Me fascinaas"
-    },
-
-    {
         imagen:"foto33.jpg",
         texto:"Mori y tomas evidencia de ello"
     },
@@ -240,7 +230,7 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto47.png",
+        imagen:"foto47.jpg",
         texto:"Lindas fotos"
     },
 
@@ -250,7 +240,7 @@ const recuerdos = [
     },
 
     {
-        imagen:"foto49.png",
+        imagen:"foto49.jpg",
         texto:"Nadie mas que tu y yo"
     },
 
